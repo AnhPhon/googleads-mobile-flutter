@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
   <com.google.android.gms.ads.nativead.NativeAdView
-      android:layout_height="350dp"
+      android:layout_height="270dp"
       android:layout_width="match_parent"
       android:id="@+id/native_ad_view"
       android:background="@android:color/transparent"
@@ -24,7 +24,7 @@
           android:id="@+id/media_view"
           android:layout_margin="@dimen/gnt_no_size"
           android:layout_width="match_parent"
-          android:layout_height="190dp"
+          android:layout_height="120dp"
           android:layout_marginTop="@dimen/gnt_no_margin"
           app:layout_constraintEnd_toEndOf="parent"
           app:layout_constraintStart_toStartOf="parent"
@@ -208,7 +208,7 @@
           android:id="@+id/cta"
           android:layout_width="match_parent"
           android:layout_height="0dp"
-          android:background="@color/gnt_blue"
+          android:background="@drawable/cta_bg"
           android:textColor="@color/gnt_white"
           android:layout_marginLeft="5dp"
           android:layout_marginRight="5dp"

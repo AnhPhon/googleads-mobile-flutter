@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -12,10 +12,10 @@
             <rect key="frame" x="0.0" y="0.0" width="355" height="402"/>
             <subviews>
                 <view opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qZf-ej-Zxg">
-                    <rect key="frame" x="10" y="199.66666666666663" width="335" height="202.33333333333337"/>
+                    <rect key="frame" x="10" y="261.66666666666669" width="335" height="140.33333333333331"/>
                     <subviews>
                         <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ekc-Zs-FHH">
-                            <rect key="frame" x="0.0" y="153.33333333333334" width="335" height="39"/>
+                            <rect key="frame" x="0.0" y="91.333333333333314" width="335" height="39"/>
                             <color key="backgroundColor" red="0.25882352939999997" green="0.52156862749999999" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="39" id="y8W-B6-JKk"/>
@@ -117,7 +117,7 @@
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41W-IZ-S0S">
-                            <rect key="frame" x="0.0" y="61.000000000000021" width="335" height="82.333333333333314"/>
+                            <rect key="frame" x="0.0" y="61.000000000000007" width="335" height="20.333333333333336"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20.329999999999998" id="NUh-RX-SnN"/>
                             </constraints>
@@ -126,7 +126,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEy-n8-ZT9">
-                            <rect key="frame" x="0.0" y="61.000000000000021" width="335" height="82.333333333333314"/>
+                            <rect key="frame" x="0.0" y="61.000000000000007" width="335" height="20.333333333333336"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -153,11 +153,8 @@
                     </constraints>
                 </view>
                 <view clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1ne-Xk-CBH" customClass="GADMediaView">
-                    <rect key="frame" x="0.0" y="0.0" width="355" height="199.66666666666666"/>
+                    <rect key="frame" x="0.0" y="0.0" width="355" height="261.66666666666669"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="width" secondItem="1ne-Xk-CBH" secondAttribute="height" multiplier="16:9" id="kTC-ip-nfX"/>
-                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
